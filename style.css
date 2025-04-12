@@ -8,13 +8,19 @@
 /* Estilo geral */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(270deg, #cd1919, #060606, #2005cd);
+    background: linear-gradient(270deg, #eeeee9, #7f8184, #a6d6e2);
     background-size: 300% 300%;
     animation: gradientAnimation 6s ease infinite;
-    color: white;
+    color: rgb(7, 7, 7);
     margin: 0;
     padding: 0;
 }
+
+    .sobre img{
+        text-align: center;
+        border-radius: 50%;
+       width: 200px;
+    }
 
 /* Ajuste do contêiner */
 @media screen and (min-width: 80px) {
@@ -41,33 +47,61 @@ main {
     background-color: #fff;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #000;
-}
-
-.navbar ul {
-    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 15px 30px;
+    position: relative;
+  }
+  
+  .navbar .logo {
+    height: 60px;
+  }
+  
+  .nav-links {
     list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navbar li {
-    margin: 10px;
-    font-family: Arial, sans-serif;
-}
-
-.navbar ul li a {
-    color: rgb(248, 240, 240);
-    font-size: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
     text-decoration: none;
-}
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* RESPONSIVO */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      right: 30px;
+      background-color: #222;
+      padding: 15px;
+      border-radius: 8px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  }
+  
 
 /* Logo */
 .logo {
@@ -83,17 +117,13 @@ nav a {
     font-size: 25px;
 }
 
-/* Foto de perfil */
-.foto-perfil {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-top: 20px;
-}
+
+  
+  
 
 /* Seção sobre */
 .sobre {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 /* Ícones de redes sociais */
@@ -256,12 +286,12 @@ button:hover {
     }
 
     .logo {
-        height: 80px;
+        height: 100px;
     }
 
     .foto-perfil {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     .horarios {

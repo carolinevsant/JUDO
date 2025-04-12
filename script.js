@@ -20,3 +20,8 @@ function mudarSlide(direcao) {
     slides.style.transform = `translateX(${-index * 100}%)`;
 }
 
+function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    nav.classList.toggle('active');
+  }
+  
