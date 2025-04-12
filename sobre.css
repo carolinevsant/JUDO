@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #958d8d, #0b0b0b);
+    margin: 0;
+    padding: 0;
+    color: #f6f1f1;
+}
+main{
+    text-align: center;
+}
+
+
+
+
+
+nav a {
+    color: rgb(29, 26, 26);
+    text-decoration: none;
+    margin:  70px;
+    font-weight: bold;
+    font-size: 25px
+}
+
+
+.intro {
+   
+    margin-bottom: 10px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+   border-radius: 200px;
+    margin-top: 20px;
+    object-fit: initial;
+   
+}
+
+.sobre {
+    margin-bottom: 50px;
+}
+
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.social-media a {
+    text-align: center;
+    color: #fffdfd;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+

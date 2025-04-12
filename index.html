@@ -19,37 +19,64 @@
         <div class="linha"></div> <!-- Linha separadora -->   
     </header>
 
+    <script src="script.js"></script>
+
     <main>
         <section class="intro">
-            <h1>ASSOCIAÇÃO AMIGOS DO JUDÔ</h1>
-            
-            
-            <img src="./img/logojudo1.png" alt="Imagem Associação" class="foto-perfil">
+            <h1>ASSOCIAÇÃO AMIGOS DO JUDÔ</h1>     
+            <img src="./img/wpp.jpg" alt="Imagem Associação" class="foto-perfil">
         </section>
 
         <section class="sobre">
             <h3>AULAS DE JUDÔ PARA ADULTOS E CRIANÇAS.</h3>
             <p>Oferecemos aulas de Judô para todas as idades, desde crianças até adultos, em um ambiente acolhedor e seguro. Nossas aulas são planejadas para promover o desenvolvimento físico, mental e social, através de técnicas e valores do Judô, como respeito, disciplina e perseverança. Além de melhorar a coordenação motora, força e flexibilidade, o Judô também ensina a importância do trabalho em equipe e do autocontrole. Venha praticar e se divertir enquanto aprende uma arte marcial milenar!</p>
-           
         </section>
 
- 
-            <h2> Horários</h2>
-            <h3>SEGUNDAS, QUARTAS E SEXTA-FEIRAS</h3>
 
-        <section class="semana">
-            <h4> INICIANTES (TODAS AS IDADES) 17:45H ÀS 18:45H </h4>
-            <h4> 5 A 8 ANOS</h4>
-            <H4> ADULTOS E VETERANOS </H4>
+        <section>
+            <div class="slider">
+                <div class="slides">
+                    <img src="./img/equipe1.png" alt="Imagem 1">
+                    <img src="./img/equipekids.png" alt="Imagem 2">
+                    <img src="./img/equipeinter.png" alt="Imagem 3">
+                </div>
+                <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+                <button class="next" onclick="mudarSlide(1)">&#10095;</button>
+            </div>
+            
+        </section>
+
+        <section class="horarios">
+            <h2>Horários das Aulas</h2>
+            <ul>
+                <li class="dia"><strong>Segunda, Quarta e Sexta</strong></li>
+                <ul class="lista-horarios">
+                    <li>🥋 Iniciantes (Todas as idades) - 17:45h às 18:45h</li>
+                    <li>👦 Infantil (5 a 8 anos) - 18:45h às 19:40h</li>
+                    <li>💪 Adultos e Veteranos - 19:45h às 21:50h</li>
+                </ul>
+            </ul>
+        </section>
+
+       
+        <section class="localizacao">
+            <h2>Nosso Endereço</h2>
+            <p>Rua Exemplo, 123 - Bairro, Cidade, Estado</p>
+            
+            <div class="mapa-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.190156422441!2d-46.7339833!3d-23.6691568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51de3c82c8cf%3A0x46e96167ef32b8ff!2zQXNzb2NpYcOnw6NvIEFtaWdvcyBkbyBKdWTDtCBTUA!5e0!3m2!1spt-BR!2sbr!4v1743291316190!5m2!1spt-BR!2sbr" 
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+        
+ 
             
          </section>
 
-        <section class="Horários">
-            <p>17:45H ÀS 18:45H</p>
-            <p>18:45 ÀS 19:40H:</p>
-            <p>19:45 ÀS 21:50</p>
-        </section>
-       
+      
+        
 
 
         <section class="social-media">
@@ -70,6 +97,12 @@
 
             
         </section>
+
+        
+
+
+
+    
     </main>
 
     <footer>
