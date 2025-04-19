@@ -3,7 +3,7 @@
 /* Estilo geral */
 body {
     font-family: Arial, sans-serif;
-    background: #e7d5d5;
+    background: #b5aaaa;
     background-size: 300% 300%;
     animation: gradientAnimation 6s ease infinite;
     color: rgb(7, 7, 7);
@@ -139,7 +139,7 @@ nav a {
 
 .social-media a {
     text-align: center;
-    color: #fffdfd;
+    color: #0f0e0e;
     text-decoration: none;
 }
 

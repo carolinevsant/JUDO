@@ -1,67 +1,85 @@
-
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #958d8d, #0b0b0b);
-    margin: 0;
-    padding: 0;
-    color: #f6f1f1;
-}
-main{
+body{
+    background-color: rgb(172, 172, 181);
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
+nav{
+    background-color: black;
+    padding: 1%;
+}
 
 nav a {
-    color: rgb(29, 26, 26);
+    color: white;
     text-decoration: none;
-    margin:  70px;
+    margin: 0 15px;
     font-weight: bold;
-    font-size: 25px
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
 
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
 
-.foto-perfil {
+.linha{
+    
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+}
+
+.titulo{
+    font-size: 15px;
+}
+ 
+
+.sensei img{
     width: 200px;
     height: 200px;
-   border-radius: 200px;
+    border-radius: 50%;
     margin-top: 20px;
-    object-fit: initial;
-   
+    object-fit: cover;
+    border: 5px solid   rgb(13, 13, 13);
 }
 
-.sobre {
-    margin-bottom: 50px;
+video{
+    width: 200px;
+    height: 200px;
 }
 
-
-
-.social-media {
+.paragrafo2{
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* opcional: centraliza verticalmente se tiver altura */
+    padding: 10px 20px;
+    text-align: justify;
 }
 
-.social-media a {
-    text-align: center;
-    color: #fffdfd;
-    text-decoration: none;
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* opcional: centraliza verticalmente se tiver altura */
+    padding: 10px 20px;
+    text-align: justify;
 }
 
-.social-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-    object-fit: contain;
+footer{
+    background-color: rgb(65, 61, 57);
+    color: #fff;
+    padding: 1%;
 }
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 50px;
-}
-
-
