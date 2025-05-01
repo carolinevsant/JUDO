@@ -2,7 +2,7 @@
 
     /* Estilo geral */
     body {
-        font-family: cursive;
+        font-family: Arial, Helvetica, sans-serif;
         background: linear-gradient(to bottom, #030303, #565858);
         background-size: 300% 300%;
         animation: gradientAnimation 6s ease infinite;
