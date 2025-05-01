@@ -1,7 +1,3 @@
-window.onload = function() {
-    alert("Bem-vindo à nossa academia de Judô! 🥋");
-};
-
 
 let index = 0;
 
